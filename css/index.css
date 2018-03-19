@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+.warp {
+	width: 1200px;
+	margin: 0 auto;
+}
+.top {
+	text-align: center;
+}
+.top ul {
+	float: right;
+	padding-right: 10px;
+}
+.top li {
+	float: right; /*向右浮动*/
+	margin-left: 20px;/*调整了间距*/
+}
+.top li a {
+	text-decoration: none;/*取消链接的横线*/
+}
+.bodyer {
+	width: 100%;
+	float: left;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.search {
+	width: 640px;
+	margin-top: 30px;
+	margin-left: 280px;
+	float: left;
+}
+.text {
+	width: 530px;
+	height: 34px;
+	padding-left: 9px;
+	border: 1px solid #b8b8b8;
+	border-right: 0;
+	float: left;
+	background: url(../images/camera_grey.png) no-repeat 510px center;
+}
+.text:hover {
+	border: 1px solid #3385ff;
+	border-right: 0;
+	background: url(../images/camera_blue.png) no-repeat 510px center;
+}
+.submit {
+	width: 100px;
+	height: 36px;
+	background: #3385ff;
+	color: #fff;
+	font-size: 15px;
+	border: 0;
+	cursor: pointer;
+	float: left;
+}
+.submit:hover {
+	background: #317ef3;
+}
+.footer {
+	width: 100%;
+	margin-top: 280px;
+	float: left;
+}
+.qrcode {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.qrcode p {
+	color: #666;
+	line-height: 24px;
+	font-weight: bold;
+}
+.p1 {
+	width: 100%;
+	margin-top: 15px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+}
+.p1 a {
+	margin: 0 10px;
+	color: #999;
+	text-decoration: underline;
+}
+.p2 {
+	width: 100%;
+	line-height: 22px;
+	text-align: center;
+	color: #999;
+	float: left;
+}
+.p2 a {
+	color: #999;
+	text-decoration: underline;
+}
